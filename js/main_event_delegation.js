@@ -97,8 +97,6 @@ function handleCellClick(cell, index) {
 
   // toggle turn X->O or otherwise
   toggleTurn();
-
-  // console.log("click", cell, index);
 }
 
 function resetGame() {
