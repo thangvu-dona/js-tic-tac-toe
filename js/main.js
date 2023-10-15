@@ -5,6 +5,11 @@ import {
 } from "./selectors.js";
 
 import { TURN } from "./constants.js";
+import { checkGameStatus } from "./utils.js";
+
+// console.log(checkGameStatus(['X', 'O', 'O', '', 'X', '', '', 'O', 'X']));
+// console.log(checkGameStatus(['X', 'O', 'X', 'X', 'O', 'X', 'O', 'X', 'O']));
+// console.log(checkGameStatus(['X', '', 'X', 'X', 'O', 'X', 'O', 'X', 'O']));
 
 /**
  * Global variables
